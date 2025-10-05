@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>终极友情大考验：同居挑战赛！</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            padding: 40px 20px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .subtitle {
+            font-size: 1.4rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .prize-badge {
+            display: inline-block;
+            background: #FFE53B;
+            background: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+            color: #8B0000;
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.6rem;
+            margin-top: 15px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .challenge-box {
+            background: #f8f9fa;
+            border-left: 5px solid #4ECDC4;
+            padding: 20px;
+            margin: 25px 0;
+            text-align: left;
+            border-radius: 0 10px 10px 0;
+        }
+
+        h2 {
+            color: #2C3E50;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.1rem;
+        }
+
+        li:before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+
+        .rules {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+            text-align: left;
+            border: 2px dashed #42A5F5;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            color: white;
+            padding: 18px 50px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.6);
+        }
+
+        .footer {
+            background: #2C3E50;
+            color: #ecf0f1;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        .small-text {
+            font-size: 0.8rem;
+            color: #7f8c8d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>敢不敢和你的好朋友同居？</h1>
+            <p class="subtitle">友情的小船，是升华还是翻船？</p >
+            <div class="prize-badge">挑战成功赢取 ¥5,000 奖金！</div>
+        </div>
+
+        <div class="content">
+            <h2>这是一场关于友情与生活的终极实验！</h2>
+            
+            <div class="challenge-box">
+                <p>你们是否曾幻想过：</p >
+                <ul>
+                    <li>和最好的朋友住在同一个屋檐下？</li>
+                    <li>有人陪你深夜聊天，一起吐槽，一起疯狂？</li>
+                    <li>但同时也面临着家务分工、生活习惯的巨大考验？</li>
+                </ul>
+            </div>
+
+            <div class="rules">
+                <h2>挑战规则</h2>
+                <ul>
+                    <li>与一位好友共同生活 <strong>30天</strong></li>
+                    <li>用视频/照片记录你们的同居生活</li>
+                    <li>完成我们设置的趣味任务（如：互换身份一天、合作烹饪大餐等）</li>
+                    <li>保持友谊指数不掉线，并通过最终默契大考验！</li>
+                </ul>
+            </div>
+
+            <p>我们将在全国挑选 <strong style="color: #FF6B6B;">10组</strong> 勇敢的搭档，提供基础生活支持！</p >
+            <p>成功完成挑战的组合，将平分 <strong style="color: #FF6B6B;">¥5,000</strong> 现金奖金！</p >
+
+            <a href=" " class="cta-button" onclick="alert('报名通道即将开启！请关注我们的官方公众号。\n\n（这是一个模拟广告页面）')">立即报名，接受挑战！</a >
+            
+            <p class="small-text">报名截止日期：2025年X月X日 | 本活动最终解释权归主办方所有</p >
+        </div>
+
+        <div class="footer">
+            <p>友情提示：同居有风险，交友需谨慎。但我们相信，真金不怕火炼，真情不怕考验！</p >
+        </div>
+    </div>
+</body>
+</html>
